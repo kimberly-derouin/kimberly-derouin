@@ -1,0 +1,111 @@
+/* Generic Helpers */
+.d-none {
+    display: none !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+    h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+/* Header */
+header {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Hangman Section */
+.container + .container {
+    margin-top: 2rem;
+}
+
+.container {
+    padding: 1rem;
+    border: 2px solid #493831;
+    border-radius: 0 15px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.hangman-container {
+    padding: 2.5rem 1rem;
+}
+
+.word-container {
+    text-align: center;
+}
+
+    .word {
+        display: block;
+        
+        font-size: 1.5rem;
+        letter-spacing: 15px;
+        text-transform: uppercase;
+    }
+
+        .word span {
+            display: inline-block;
+        }
+
+.letters-container {
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+    .letter-buttons-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .letter-buttons-container button {
+        border: none;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        min-width: 3rem;
+        min-height: 3rem;
+        background-color: #D24858;
+        color: #FFF;
+        text-align: center;
+        font-weight: 600;
+        cursor: pointer; 
+    }
+
+    .letter-buttons-container button:disabled {
+        background-color: #EA8676;
+        color: #493831;
+        cursor: auto; 
+    }
+
+.fail-counter-container {
+    display: flex;
+    background-color: #493831;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+    .fail-symbol {
+        padding: 0 0.5rem;
+    }
+
+.game-over-text {
+    display: inline-block;
+    background-color: #D24858;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.game-won-text {
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+/* Footer */

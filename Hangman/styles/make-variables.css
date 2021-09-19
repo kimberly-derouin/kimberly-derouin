@@ -1,0 +1,45 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-weight-light {
+    font-weight: 300;
+}
+
+.font-weight-bold {
+    font-weight: 600;
+}
+
+/* 
+
+Colors 
+
+    Peach: FDEECD
+    Brown: 493831
+    Orange: EAB05E
+    Light: Pink EA8676
+    Dark: Pink D24858
+
+*/
+.color-dark-pink {
+    color: #D24858;
+}
+.color-light-pink {
+    color: #EA8676;
+}
+.color-brown {
+    color: #493831;
+}
+
+
+
+/* Background Colors */
+.bg-peach {
+    background-color: #FDEECD;
+}
+.bg-brown {
+    background-color: #493831;
+}
